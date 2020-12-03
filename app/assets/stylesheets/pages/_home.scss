@@ -23,12 +23,13 @@
     line-height: 1.5;
     border-left: 4px solid $pink;
     padding-left: 80px;
+    margin-left: 30px;
   }
 }
 
 @media (max-width: 560px) {
   .banner-one h1 {
-    font-size: 30px;
+    font-size: 16px;
     padding-left: 40px;
     margin-left: 40px;
     margin-right: 40px;
