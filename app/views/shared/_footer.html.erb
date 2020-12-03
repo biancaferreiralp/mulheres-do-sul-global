@@ -1,0 +1,53 @@
+<footer class="footer">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row justify-content-between">
+      <div class="col-md-3 footer-icon">
+        <%= link_to root_path, data: { turbolinks: false } do %>
+          <%= image_tag("logo.png") %>
+        <% end %>
+      </div>
+
+      <hr class="clearfix w-100 d-md-none mb-4 mt-5">
+
+      <div class="col-md-2 footer-nav">
+        <ul class="list-inline">
+          <li class="footer-item">
+            <%= link_to "HOME", root_path, class: "footer-link" %>
+          </li>
+          <li class="footer-item">
+            <%= link_to "SOBRE", root_path, class: "footer-link" %>
+          </li>
+          <li class="footer-item">
+            <%= link_to "LOJA", root_path, class: "footer-link" %>
+          </li>
+          <li class="footer-item">
+            <%= link_to "CONTATO", root_path, class: "footer-link" %>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="clearfix w-100 d-md-none mb-3 mt-4 pb-3">
+
+      <div class="col-md-3 footer-donate">
+        <p class="donate-header">APOIE O PROJETO</p>
+        <%= link_to "FAZER DOAÇÃO", root_path, class: "btn" %>
+      </div>
+
+      <hr class="clearfix w-100 d-md-none mt-1 mb-4 pb-2">
+
+      <div class="col-md-3 footer-social">
+        <p>REDES SOCIAIS</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/mulheresdosulglobal/" target="_blank"><i class="fab fa-instagram mr-3"></i></a>
+          <a href="https://www.facebook.com/mulheresdosulglobal" target="_blank"><i class="fab fa-facebook mr-3"></i></a>
+          <a href="https://www.linkedin.com/company/mulheres-do-sul-global/" target="_blank"><i class="fab fa-linkedin mr-3"></i></a>
+          <a href="https://whats.link/mulheresdosulglobal" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="row no-gutters copyright">
+  <p>Mulheres do Sul Global © Todos os direitos reservados.</p>
+</div>
