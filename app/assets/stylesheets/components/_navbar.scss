@@ -21,13 +21,24 @@
   color: $pink;
   font-weight: bold;
   background-color: rgba(197, 0, 88, 0.06);
-  padding: 15px;
+  padding: 16px;
   font-size: 13px;
+  border: 0px;
 }
 
 .navbar .nav-item .nav-link {
   color: $gray;
   &:hover {
     color: $gray;
+    border-bottom: 1px solid $gray;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar .nav-item .nav-link {
+    margin-top: 10px;
+    &:hover {
+      border-bottom: 0px;
+    }
   }
 }
