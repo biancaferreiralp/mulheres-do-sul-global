@@ -36,3 +36,52 @@
     margin-right: 40px;
   }
 }
+
+// BANNER TWO
+
+.banner-two {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+.video {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  iframe {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.09);
+  }
+}
+
+@media (max-width: 700px) {
+  .banner-two {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .video iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) {
+  .video iframe {
+    border: 0;
+    height: 371px;
+    left: 0;
+    top: 0;
+    width: 50%;
+  }
+}
