@@ -1,1 +1,7 @@
 // Specific CSS for your home-page
+
+.carousel .carousel-item img {
+  max-height: 565px;
+  object-fit: cover;
+  object-position: center 52%;
+}
