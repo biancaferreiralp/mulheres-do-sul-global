@@ -1,12 +1,30 @@
-.navbar-lewagon {
+.navbar {
   justify-content: space-between;
   background: white;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar .navbar-icon img {
+  max-width: 170px;
+  max-height: 170px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar .nav-item {
+  font-size: 13px;
+}
+
+#donate {
+  color: $pink;
+  font-weight: bold;
+  border-bottom: 0px;
+  background-color: rgba(197, 0, 88, 0.06);
+  padding: 15px;
+  font-size: 13px;
+}
+
+.navbar .nav-item .nav-link {
+  color: $gray;
+  &:hover {
+    color: $gray;
+    border-bottom: 1px solid $gray;
+  }
 }
