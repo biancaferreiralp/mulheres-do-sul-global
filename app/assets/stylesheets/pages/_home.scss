@@ -1,1 +1,36 @@
 // Specific CSS for your home-page
+
+// BANNER ONE
+
+.banner-one {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(197, 0, 88, 0.1);
+  color: $pink;
+  .header-one {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-family: $body-font;
+    font-size: 50px;
+    line-height: 1.5;
+    border-left: 4px solid $pink;
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 560px) {
+  .banner-one h1 {
+    font-size: 30px;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
