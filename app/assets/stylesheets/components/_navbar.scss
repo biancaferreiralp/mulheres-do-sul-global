@@ -20,7 +20,6 @@
 #donate {
   color: $pink;
   font-weight: bold;
-  border-bottom: 0px;
   background-color: rgba(197, 0, 88, 0.06);
   padding: 15px;
   font-size: 13px;
@@ -30,6 +29,5 @@
   color: $gray;
   &:hover {
     color: $gray;
-    border-bottom: 1px solid $gray;
   }
 }
