@@ -11,6 +11,10 @@
     font-weight: bold;
     color: $pink;
   }
+  img {
+    min-height: 150px;
+    object-fit: cover;
+  }
 }
 
 h2 {
@@ -29,7 +33,7 @@ h2 {
 }
 
 .about-header-two {
-  height: 70vh;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,8 +42,9 @@ h2 {
 .about-image-two {
   img {
     width: 100%;
-    height: 70vh;
+    height: 380px;
     object-fit: cover;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
   }
 }
 
@@ -81,11 +86,11 @@ h2 {
 }
 
 .about-header-one {
-  height: 40vh;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
+  padding: 30px;
   h4 {
     font-family: 'Oswald';
     color: black;
@@ -95,8 +100,10 @@ h2 {
 .about-image-one {
   img {
     width: 100%;
-    height: 40vh;
+    height: 380px;
     object-fit: cover;
+    object-position: right;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
   }
 }
 
