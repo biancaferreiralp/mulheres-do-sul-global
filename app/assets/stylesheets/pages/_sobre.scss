@@ -25,6 +25,10 @@ h2 {
 
 }
 
+.banner-sobre {
+ width: 100%;
+}
+
 .about-header-two {
   height: 70vh;
   display: flex;
@@ -140,7 +144,7 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   text-align: end;
-  font-family:'Satisfy', cursive;
+  font-family: "Oswald"
 }
 
 .slider {
@@ -152,8 +156,8 @@ h2 {
   flex: 1;
   margin: 0 10px;
   background:white;
-  box-shadow: 0 0 1em gray;
-  border-radius: 3% 3%;
+  box-shadow: 0 0 0.5em gray;
+  border-radius: 1% 1%;
   margin-bottom: 50px;
 
 }
@@ -167,7 +171,7 @@ h2 {
   width: 100%;
   object-fit: cover;
   object-position: center 20%;
-  border-radius: 3% 3% 0% 0%;
+  border-radius: 1% 1% 0% 0%;
 
 }
 
