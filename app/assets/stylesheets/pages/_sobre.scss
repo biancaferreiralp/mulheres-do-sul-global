@@ -169,10 +169,11 @@ h2 {
 }
 
 .slider .card .img{
-  height: 300px;
+  height: 400px;
   width: 100%;
+  object-fit: cover;
 }
-.slider .card .img img{
+.slider .card .img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
