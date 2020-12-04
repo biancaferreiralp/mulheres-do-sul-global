@@ -1,11 +1,11 @@
 
 <%= provide(:turbolinks_cache, 'no-cache') %>
 
-<head>
+<%# <head>
   <script src= "http://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-</head>
+</head> %>
 
   <div class="banner-about">
     <%= image_tag("sobrenos.png", class: "banner-sobre") %>
@@ -112,81 +112,129 @@
           </div>
         </div>
 
-  <h2 style="margin-top: 5%; margin-left: 15px;">Nosso time</h2>
+  <h2 style="margin-top: 5%; margin-left: 11px;">Nosso time</h2>
 
-  <div class="slider owl-carousel" style="margin-left: 15px; margin-right: 17px;">
+  <div class="slider owl-carousel owl-theme" style="margin-right: 17px; margin-bottom: 30px;">
     <div class="card">
-      <div class='img'><img src="https://res.cloudinary.com/dnd1jn5pp/image/upload/pnkq9j6kvnff5zl8fd2k"></div>
-      <div class="content">
+      <div class='img'>
+        <img src="https://res.cloudinary.com/dnd1jn5pp/image/upload/pnkq9j6kvnff5zl8fd2k">
+        <p class="title text-center pt-3">Emanuela Pinheiro</p>
+      </div>
+      <%# <div class="content">
         <div class="title">Emanuela Pinheiro</div>
-        <%# <div class="subtitle"><p>Nossa fundadora</p></div> %>
-      </div>
-    </div>
-    <div class="card">
-      <div class='img'><img src="https://i.imgur.com/PgHZKKN.jpg"></div>
-      <div class="content">
-        <div class="title">Thays</div>
-        <%# <div class="subtitle"><p>Breve descrição</p></div> %>
-      </div>
-    </div>
-    <div class="card">
-      <div class='img'><img src="https://i.imgur.com/s9KviVQ.jpg"></div>
-      <div class="content">
-        <div class="title">Ana Luiza</div>
-        <%# <div class="subtitle"><p>Breve descrição</p></div> %>
-      </div>
-    </div>
-    <div class="card">
-      <div class='img'><img src="https://i.imgur.com/5sEgcEj.jpg"></div>
-      <div class="content">
-        <div class="title">Claudia Lima</div>
-        <%# <div class="subtitle"><p>Breve descrição</p></div> %>
-      </div>
-    </div>
-    <div class="card">
-      <div class='img'><img src="https://i.imgur.com/61IOnyl.jpg"></div>
-      <div class="content">
-        <div class="title">Marlene Barros</div>
-        <%# <div class="subtitle"><p>Breve descrição</p></div> %>
-      </div>
-    </div>
-    <div class="card">
-      <div class='img'><img src="https://i.imgur.com/nuc5mCN.jpg"></div>
-      <div class="content">
-        <div class="title">Firmiana Pinheiro</div>
-        <%# <div class="subtitle"><p>Breve descrição</p></div> %>
-      </div>
-    </div>
-    <div class="card">
-      <div class='img'><img src="https://i.imgur.com/2zUUrXP.jpg"></div>
-      <div class="content">
-        <div class="title">Gabriela Santiago</div>
-        <%# <div class="subtitle"><p>Breve descrição</p></div> %>
-      </div>
-    </div>
-    <div class="card">
-      <div class='img'><img src="https://i.imgur.com/9oQaCIP.jpg"></div>
-      <div class="content">
-        <div class="title">Luiz</div>
-        <%# <div class="subtitle"><p>Breve descrição</p></div> %>
-      </div>
-    </div>
-     <div class="card">
-      <div class='img'><img src="https://i.imgur.com/1wQislQ.jpg"></div>
-      <div class="content">
-        <div class="title">Robson Rastrelli</div>
-        <%# <div class="subtitle"><p>Breve descrição</p></div> %>
-      </div>
+        <div class="subtitle"><p>Nossa fundadora</p></div>
+      </div> %>
     </div>
 
+    <div class="card">
+      <div class='img'>
+        <img src="https://i.imgur.com/PgHZKKN.jpg">
+        <p class="title text-center pt-3">Thays</p>
+      </div>
+      <%# <div class="content">
+        <div class="title">Thays</div>
+        <div class="subtitle"><p>Breve descrição</p></div>
+      </div> %>
+    </div>
+
+    <div class="card">
+      <div class='img'>
+        <img src="https://i.imgur.com/s9KviVQ.jpg">
+        <p class="title text-center pt-3">Ana Luiza</p>
+      </div>
+      <%# <div class="content">
+        <div class="title">Ana Luiza</div>
+        <div class="subtitle"><p>Breve descrição</p></div>
+      </div> %>
+    </div>
+
+    <div class="card">
+      <div class='img'>
+        <img src="https://i.imgur.com/5sEgcEj.jpg">
+        <p class="title text-center pt-3">Claudia Lima</p>
+      </div>
+      <%# <div class="content">
+        <div class="title">Claudia Lima</div>
+        <div class="subtitle"><p>Breve descrição</p></div>
+      </div> %>
+    </div>
+
+    <div class="card">
+      <div class='img'>
+        <img src="https://i.imgur.com/61IOnyl.jpg">
+        <p class="title text-center pt-3">Marlene Barros</p>
+      </div>
+      <%# <div class="content">
+        <div class="title">Marlene Barros</div>
+        <div class="subtitle"><p>Breve descrição</p></div>
+      </div> %>
+    </div>
+
+    <div class="card">
+      <div class='img'>
+        <img src="https://i.imgur.com/nuc5mCN.jpg">
+        <p class="title text-center pt-3">Firmiana Pinheiro</p>
+      </div>
+      <%# <div class="content">
+        <div class="title">Firmiana Pinheiro</div>
+        <div class="subtitle"><p>Breve descrição</p></div>
+      </div> %>
+    </div>
+
+    <div class="card">
+      <div class='img'>
+        <img src="https://i.imgur.com/2zUUrXP.jpg">
+        <p class="title text-center pt-3">Gabriela Santiago</p>
+      </div>
+      <%# <div class="content">
+        <div class="title">Gabriela Santiago</div>
+        <div class="subtitle"><p>Breve descrição</p></div>
+      </div> %>
+    </div>
+
+    <div class="card">
+      <div class='img'>
+        <img src="https://i.imgur.com/9oQaCIP.jpg">
+        <p class="title text-center pt-3">Luiz</p>
+      </div>
+      <%# <div class="content">
+        <div class="title">Luiz</div>
+        <div class="subtitle"><p>Breve descrição</p></div>
+      </div> %>
+    </div>
+
+     <div class="card">
+      <div class='img'>
+        <img src="https://i.imgur.com/1wQislQ.jpg">
+        <p class="title text-center pt-3">Robson Rastrelli</p>
+      </div>
+      <%# <div class="content">
+        <div class="title">Robson Rastrelli</div>
+        <div class="subtitle"><p>Breve descrição</p></div>
+      </div> %>
+    </div>
   </div>
+
   <script>
     $(".slider").owlCarousel({
       loop: true,
       autoplay: true,
-      autoplayTimeout: 3000, //2000ms = 2s;
+      autoplayTimeout: 4000, //2000ms = 2s;
       autoplayHoverPause: true,
-    });
+      center:true,
+      dots:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:3
+          }
+      }
+    })
   </script>
 </div>
 
