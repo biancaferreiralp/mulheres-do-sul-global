@@ -2,9 +2,11 @@
   <div class="container-fluid text-center text-md-left">
     <div class="row justify-content-between">
       <div class="col-md-3 footer-icon">
-        <%= link_to root_path, data: { turbolinks: false } do %>
-          <%= image_tag("logo.png") %>
-        <% end %>
+        <div>
+          <%= link_to root_path, data: { turbolinks: false } do %>
+            <%= image_tag("logo.png") %>
+          <% end %>
+        </div>
       </div>
 
       <hr class="clearfix w-100 d-md-none mb-4 mt-5">
@@ -29,19 +31,31 @@
       <hr class="clearfix w-100 d-md-none mb-3 mt-4 pb-3">
 
       <div class="col-md-3 footer-donate">
-        <p class="donate-header">APOIE O PROJETO</p>
-        <%= link_to "FAZER DOAÇÃO", root_path, class: "btn" %>
+        <div>
+          <p class="donate-header">APOIE O PROJETO</p>
+          <%= link_to "FAZER DOAÇÃO", root_path, class: "btn" %>
+        </div>
       </div>
 
       <hr class="clearfix w-100 d-md-none mt-1 mb-4 pb-2">
 
       <div class="col-md-3 footer-social">
-        <p>REDES SOCIAIS</p>
-        <div class="social-links">
-          <a href="https://www.instagram.com/mulheresdosulglobal/" target="_blank"><i class="fab fa-instagram mr-3"></i></a>
-          <a href="https://www.facebook.com/mulheresdosulglobal" target="_blank"><i class="fab fa-facebook mr-3"></i></a>
-          <a href="https://www.linkedin.com/company/mulheres-do-sul-global/" target="_blank"><i class="fab fa-linkedin mr-3"></i></a>
-          <a href="https://whats.link/mulheresdosulglobal" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <div>
+          <p>REDES SOCIAIS</p>
+          <ul class="list-inline social-links">
+            <li class="footer-item">
+              <a href="https://www.instagram.com/mulheresdosulglobal/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="footer-item">
+              <a href="https://www.facebook.com/mulheresdosulglobal" target="_blank"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="footer-item">
+              <a href="https://www.linkedin.com/company/mulheres-do-sul-global/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="footer-item">
+              <a href="https://whats.link/mulheresdosulglobal" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

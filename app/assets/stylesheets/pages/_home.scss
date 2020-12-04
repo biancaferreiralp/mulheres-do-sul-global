@@ -1,1 +1,184 @@
 // Specific CSS for your home-page
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  } 
+}
+
+// BANNER ONE
+
+.banner-one {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $pink;
+  /* background-color: rgba(197, 0, 88, 0.1); */
+  color: white;
+  .header-one {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-family: $body-font;
+    font-size: 43px;
+    line-height: 1.5;
+    border-left: 4px solid white;
+    padding-left: 70px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 560px) {
+  .banner-one h1 {
+    font-size: 16px;
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+// BANNER TWO
+
+.banner-two {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: $pink;
+  margin-top: -1px;
+  p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+  }
+}
+
+.video {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  iframe {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.09);
+  }
+}
+
+@media (max-width: 700px) {
+  .banner-two {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .video iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) {
+  .video iframe {
+    border: 0;
+    height: 371px;
+    left: 0;
+    top: 0;
+    width: 50%;
+  }
+}
+
+// BANNER THREE
+
+.banner-three {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.cards {
+  padding: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h5 {
+    color: white;
+    font-weight: bold;
+    font-family: $body-font;
+    text-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
+  }
+}
+
+.card-one {
+  border: 0px;
+  width: 315px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("msg-four.jpg");
+  background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("msg-four.jpg");
+  }
+}
+
+.card-two {
+  border: 0px;
+  width: 315px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("msg-five.jpg");
+  background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("msg-five.jpg");
+  }
+}
+
+.card-three {
+  border: 0px;
+  width: 315px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("msg-six.jpg");
+  background-size: cover;
+  background-position: left;
+  &:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("msg-six.jpg");
+  }
+}
+
+
+@media (max-width: 700px) {
+  .card-one {
+    width: 180px;
+    height: 200px;
+    background-position: center;
+  }
+  .card-two {
+    width: 180px;
+    height: 200px;
+  }
+  .card-three {
+    width: 180px;
+    height: 200px;
+  }
+}
