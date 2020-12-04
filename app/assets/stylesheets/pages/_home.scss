@@ -11,9 +11,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: white;
+  background-color: $pink;
   /* background-color: rgba(197, 0, 88, 0.1); */
-  color: $pink;
+  color: white;
   .header-one {
     display: flex;
     justify-content: center;
@@ -22,9 +22,8 @@
     font-family: $body-font;
     font-size: 43px;
     line-height: 1.5;
-    border-left: 4px solid $pink;
+    border-left: 4px solid white;
     padding-left: 70px;
-    /* margin-left: 20px; */
     text-align: justify;
   }
 }
@@ -45,12 +44,13 @@
   padding-bottom: 20px;
   padding-right: 15px;
   padding-left: 15px;
-  background-color: white;
+  background-color: $pink;
+  margin-top: -1px;
   p {
     font-size: 12px;
     text-align: center;
     margin-top: 15px;
-    color: $gray;
+    color: white;
   }
 }
 
