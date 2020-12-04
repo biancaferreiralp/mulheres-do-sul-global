@@ -1,7 +1,6 @@
 .banner-about {
   margin-top: -2%;
-  height: 60vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("couturemsg.jpeg");
+  height: auto;
   background-size: cover;
   background-position: 50% 100%;
   h1 {
@@ -49,10 +48,10 @@ h2 {
   margin-bottom: 60px;
 }
 
-.w-100 {
+/* .w-100 {
   width: 80% !important;
   height: 30%;
-}
+} */
 
 
 .flex-container {
