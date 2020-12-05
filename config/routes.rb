@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get '/sobre', to: 'pages#sobre'
   get '/contato', to: 'pages#contato'
   get '/msg-lab', to: 'pages#msglab'
+  get 'turmas', to: 'pages#turmas'
 end

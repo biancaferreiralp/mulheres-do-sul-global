@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def msglab
   end
+
+  def turmas
+  end
 end
