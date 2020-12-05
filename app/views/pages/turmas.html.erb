@@ -8,7 +8,7 @@
   
   <h2>Turma 5 – 2020</h2>
 
-  <div class="slider owl-carousel owl-theme turma-5-2020 mt-5 mb-5">
+  <div class="slider owl-carousel owl-theme turma-5 mt-5 mb-5">
     <div class="card">
       <div class="img img-one">
         <%= image_tag("turmas-2020-5-1.jpg") %>
@@ -87,7 +87,7 @@
   
   <h2>Turma 4 – 2020</h2>
 
-  <div class="slider owl-carousel owl-theme turma-4-2020 mt-5 mb-5">
+  <div class="slider owl-carousel owl-theme turma-4 mt-5 mb-5">
     <div class="card">
       <div class="img img-one">
         <%= image_tag("turmas-2020-4-1.jpg") %>
@@ -166,7 +166,7 @@
   
   <h2>Turma 3 – 2020</h2>
 
-  <div class="slider owl-carousel owl-theme turma-3-2020 mt-5 mb-5">
+  <div class="slider owl-carousel owl-theme turma-3 mt-5 mb-5">
     <div class="card">
       <div class="img img-one">
         <%= image_tag("turmas-2020-3-1.jpg") %>
@@ -236,7 +236,7 @@
   
   <h2>Turma 2 – 2019</h2>
 
-  <div class="slider owl-carousel owl-theme turma-2-2019 mt-5 mb-5">
+  <div class="slider owl-carousel owl-theme turma-2 mt-5 mb-5">
     <div class="card">
       <div class="img img-one">
         <%= image_tag("turmas-2019-2-1.jpg") %>
@@ -374,11 +374,47 @@
   </div>
 
 
+  <!-- TURMA 1 - 2017/2018 -->
+  
+  <h2>Turma 1 – 2017/2018</h2>
+
+  <div class="owl-carousel owl-theme turma-1 mt-5 mb-5">
+    <div class="card">
+      <div class="img img-one">
+        <%= image_tag("turma-1-1.jpg") %>
+        <p class="title text-center pt-3">
+          Tereza Vituriano, <b>Brasil</b>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
   <!-- OWL CAROUSEL -->
 
   <script>
     $(".slider").owlCarousel({
       loop: true,
+      autoplay: false,
+      center:true,
+      dots:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:3
+          }
+      }
+    })
+  </script>
+</div>
+
+<script>
+    $(".turma-1").owlCarousel({
       autoplay: false,
       center:true,
       dots:true,
