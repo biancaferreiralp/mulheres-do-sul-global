@@ -1,1 +1,73 @@
-<h1>Turmas</h1>
+<div class="banner-about">
+  <%= image_tag("sobrenos.png", class: "banner-sobre") %>
+</div>
+
+<!-- TURMA 5 - 2020 -->
+
+<div class="container">
+  <div class="col-sm-12 col-md-12 six-column">
+    <h2 class="mt-5 pl-2">Turma 5 – 2020</h2>
+  <div>
+</div>
+
+<div class="mb-5">
+  <div class="slider owl-carousel owl-theme">
+    <div class="card">
+      <div class="img">
+        <img src="https://i.imgur.com/UUH9v3Z.jpg">
+        <p class="title text-center pt-3">
+          Emanuela Pinheiro, <b>Brasil</b>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img">
+        <img src="https://i.imgur.com/XVzcyCV.jpg">
+        <p class="title text-center pt-3">
+          Emanuela Pinheiro, <b>Brasil</b>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img">
+        <img src="https://i.imgur.com/zlvV1J0.jpg">
+        <p class="title text-center pt-3">
+          Emanuela Pinheiro, <b>Brasil</b>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img">
+        <img src="https://i.imgur.com/Yg3OMlB.jpg">
+        <p class="title text-center pt-3">
+          Emanuela Pinheiro, <b>Brasil</b>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(".slider").owlCarousel({
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 4000, //2000ms = 2s;
+      autoplayHoverPause: true,
+      center:true,
+      dots:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:3
+          }
+      }
+    })
+  </script>
+</div>
