@@ -34,7 +34,7 @@ a {
     font-size: 43px;
     line-height: 1.5;
     border-left: 4px solid white;
-    padding-left: 70px;
+    padding-left: 60px;
     text-align: justify;
   }
 }
@@ -51,8 +51,8 @@ a {
 // BANNER TWO
 
 .banner-two {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
   background-color: $pink;
@@ -102,6 +102,54 @@ a {
 // BANNER THREE
 
 .banner-three {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $pink;
+  color: white;
+  margin-top: -1px;
+  .header-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  h1 {
+    font-family: $body-font;
+    font-size: 43px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+  }
+  .btn {
+    background-color: white;
+    color: $pink;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 989px) {
+  .banner-three .header-three {
+    width: 80%;
+  }
+}
+
+@media (min-width: 989px) {
+  .banner-three .header-three {
+    width: 50%;
+  }
+}
+
+// BANNER FOUR
+
+.banner-four {
   height: auto;
   display: flex;
   justify-content: center;
@@ -187,7 +235,7 @@ a {
 }
 
 
-@media (max-width: 989px) {
+@media (max-width: 1050px) {
   .cards {
     flex-direction: column;
   }
