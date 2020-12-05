@@ -41,21 +41,46 @@
 </div>
 
 <div class="banner-three">
+  <div class="cards">
+    <%= link_to "/sobre" do %>
+      <div class="card-one m-3"><h5>NOSSA HISTÓRIA</h5></div>
+    <% end %>
+    
+    <%= link_to root_path do %>
+      <div class="card-two m-3"><h5>NOSSA LOJA</h5></div>
+    <% end %>
+    
+    <%= link_to "/msg-lab" do %>
+      <div class="card-three m-3"><h5>MSG LAB</h5></div>
+    <% end %>
+    
+    <%= link_to "/contato" do %>
+      <div class="card-four m-3"><h5>CONTRIBUA</h5></div>
+    <% end %>
+  </div>
+</div>
+
+<!-- <div class="banner-three">
   <div class="row cards m-0">
-    <div class="col-xs-12 col-md-4 p-3">
+    <div class="col-xs-12 col-md-2 p-2">
       <%= link_to "/sobre" do %>
         <div class="card-one"><h5>NOSSA HISTÓRIA</h5></div>
       <% end %>
     </div>
-    <div class="col-xs-12 col-md-4 p-3">
+    <div class="col-xs-12 col-md-2 p-2">
       <%= link_to root_path do %>
         <div class="card-two"><h5>NOSSA LOJA</h5></div>
       <% end %>
     </div>
-    <div class="col-xs-12 col-md-4 p-3">
-      <%= link_to root_path do %>
-        <div class="card-three"><h5>CONTRIBUA</h5></div>
+    <div class="col-xs-12 col-md-2 p-2">
+      <%= link_to "/msg-lab" do %>
+        <div class="card-three"><h5>MSG LAB</h5></div>
+      <% end %>
+    </div>
+    <div class="col-xs-12 col-md-2 p-2">
+      <%= link_to "/contato" do %>
+        <div class="card-four"><h5>CONTRIBUA</h5></div>
       <% end %>
     </div>
   </div>
-</div>
+</div> -->

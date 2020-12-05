@@ -112,7 +112,7 @@ a {
   padding: 80px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   h5 {
     color: white;
@@ -124,8 +124,8 @@ a {
 
 .card-one {
   border: 0px;
-  width: 315px;
-  height: 300px;
+  width: 215px;
+  height: 200px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
   display: flex;
   justify-content: center;
@@ -140,8 +140,8 @@ a {
 
 .card-two {
   border: 0px;
-  width: 315px;
-  height: 300px;
+  width: 215px;
+  height: 200px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
   display: flex;
   justify-content: center;
@@ -156,8 +156,24 @@ a {
 
 .card-three {
   border: 0px;
-  width: 315px;
-  height: 300px;
+  width: 215px;
+  height: 200px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/aolskSB.jpg");
+  background-size: cover;
+  background-position: center;
+  &:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://i.imgur.com/aolskSB.jpg");
+  }
+}
+
+.card-four {
+  border: 0px;
+  width: 215px;
+  height: 200px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.09);
   display: flex;
   justify-content: center;
@@ -171,7 +187,10 @@ a {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 989px) {
+  .cards {
+    flex-direction: column;
+  }
   .card-one {
     width: 200px;
     height: 200px;
@@ -182,6 +201,10 @@ a {
     height: 200px;
   }
   .card-three {
+    width: 200px;
+    height: 200px;
+  }
+  .card-four {
     width: 200px;
     height: 200px;
   }
