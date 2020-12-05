@@ -3,13 +3,11 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <%= image_tag("msg-one.jpg", class: "d-block w-100") %>
+      <%= image_tag("msg-zero.jpg", class: "d-block w-100") %>
     </div>
-    <!-- <div class="carousel-item">
-      <%= image_tag("msg-two.jpg", class: "d-block w-100") %>
-    </div> -->
+
     <div class="carousel-item">
-      <%= image_tag("msg-three.jpg", class: "d-block w-100") %>
+      <%= image_tag("msg-one.jpg", class: "d-block w-100") %>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -22,26 +20,91 @@
   </a>
 </div>
 
-
-<!-- BANNERS -->
+<!-- BANNER ONE -->
 
 <div class="banner-one">
   <div class="header-one">
     <div class="col-12 col-md-6">
-      <h1><b>Cada vale-presente vale o presente e o futuro das Mulheres do Sul Global</b></h1>
+      <h1><b>Queremos empoderar e transformar a vida de mulheres refugiadas</b></h1>
     </div>
   </div>
 </div>
 
-<div class="banner-two">
-  <div class="video">
-    <iframe src="https://drive.google.com/file/d/1vZyoo80XLioF19wx5KZS4-TfdKCbjWv2/preview" allowfullscreen></iframe>
+<!-- BANNER TWO -->
+
+<div class="row no-gutters">
+  <div class="col-xs-12 col-md-6">
+    <div class="image-two">
+      <%= image_tag("msg-twelve.jpg")%>
+    </div>
   </div>
-  <p>Assista ao vídeo da nossa fundadora, Manu, contando mais sobre o projeto e a ação de Natal.</p>
+
+  <div class="col-xs-12 col-md-6">
+    <div class="banner-two">
+      <div class="paragraph-two row justify-content-center">
+        <div class="col-10 col-md-12">
+          <h6>
+            Somos um negócio social de empoderamento econômico de talentosas mulheres costureiras 
+            inseridas em contextos de refúgio e vulnerabilidade social, baseado na promoção do empreendedorismo, 
+            capacitação de habilidades, criação e venda de peças têxteis comprometidas com os novos paradigmas 
+            de se fazer e consumir sustentável.
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="banner-three">
-  <div class="header-three">
+<!-- BANNER THREE -->
+
+<div class="row no-gutters">
+  <div class="col-xs-12 col-md-6">
+    <div class="banner-three">
+      <div class="paragraph-three row justify-content-center">
+        <div class="col-10 col-md-12">
+          <h6>
+            Promovemos o treinamento em costura de atelier, disponibilizamos maquinário para trabalhar de casa, 
+            buscamos promover o empreendedorismo com a formalização de costureiras micro-empreendedoras, 
+            e as conectamos com o mercado.
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-md-6">
+    <div class="image-three">
+      <%= image_tag("msg-three.jpg")%>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER FOUR -->
+
+<div class="row no-gutters">
+  <div class="col-xs-12 col-md-6">
+    <div class="image-four">
+      <%= image_tag("msg-eight.jpeg")%>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6">
+    <div class="banner-four">
+      <div class="paragraph-four row justify-content-center">
+        <div class="col-10 col-md-12">
+          <h6>
+            Nossos valores são regidos pela <b>tolerância</b>, <b>empatia</b>, <b>responsabilidade social</b>, 
+            <b>compromisso coletivo</b>, <b>independência</b>, <b>ética</b> e <b>transparência</b>.
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER FIVE -->
+
+<div class="banner-five">
+  <div class="header-five">
     <div>
       <div>
         <h1 class="mb-4"><b>MSG LAB</b></h1>
@@ -63,18 +126,45 @@
       </div>
       <div class="text-center mt-5">
         <%= link_to "/msg-lab" do %>
-          <p class="btn m-2">Conheça o programa</p>
+          <p class="btn m-2">CONHEÇA O PROGRAMA</p>
         <% end %>
 
         <%= link_to "/turmas" do %>
-          <p class="btn m-2">Conheça as turmas</p>
+          <p class="btn m-2">CONHEÇA AS TURMAS</p>
         <% end %>
       </div>
     </div>
   </div>
 </div>
 
-<div class="banner-four">
+<!-- BANNER SIX -->
+
+<div class="banner-six">
+  <div class="header-six">
+    <div class="col-12 col-md-6">
+      <h1><b>Cada vale-presente vale o presente e o futuro das Mulheres do Sul Global</b></h1>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER SEVEN -->
+
+<div class="banner-seven">
+  <div class="video">
+    <iframe src="https://drive.google.com/file/d/1vZyoo80XLioF19wx5KZS4-TfdKCbjWv2/preview" allowfullscreen></iframe>
+  </div>
+  <p>Assista ao vídeo da nossa fundadora, Manu, contando mais sobre o projeto e a ação de Natal.</p>
+
+  <div class="text-center mt-5 mb-3">
+    <%= link_to "/" do %>
+      <p class="btn m-2">ACESSE A LOJA</p>
+    <% end %>
+  </div>
+</div>
+
+<!-- BANNER EIGHT -->
+
+<div class="banner-eight">
   <div class="cards">
     <%= link_to "/sobre" do %>
       <div class="card-one m-3"><h5>NOSSA HISTÓRIA</h5></div>

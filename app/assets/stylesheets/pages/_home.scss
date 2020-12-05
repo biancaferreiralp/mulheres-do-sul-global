@@ -11,13 +11,234 @@ a {
   } 
 }
 
+
 // BANNER ONE
 
 .banner-one {
   display: flex;
   width: 100%;
   height: auto;
-  padding-top: 70px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  color: $pink;
+  .header-one {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-family: $body-font;
+    font-size: 45px;
+    line-height: 1.5;
+    border-left: 4px solid $pink;
+    padding-left: 60px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 560px) {
+  .banner-one {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    h1 {
+      font-size: 16px;
+      padding-left: 40px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+}
+
+
+// BANNER TWO
+
+.banner-two {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $pink;
+  color: white;
+  margin-bottom: -1px;
+}
+
+.image-two {
+  margin-bottom: -1px;
+  img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+}
+
+.paragraph-two {
+  width: 100%;
+  text-align: justify;
+  h6 {
+    line-height: 2;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner-two {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  .image-two img {
+    min-height: 220px;
+    max-height: 220px;
+  }
+}
+
+
+// BANNER THREE
+
+.banner-three {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $pink;
+  color: white;
+  margin-bottom: -1px;
+}
+
+.image-three {
+  margin-bottom: -1px;
+  img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+}
+
+.paragraph-three {
+  width: 100%;
+  text-align: justify;
+  h6 {
+    line-height: 2;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner-three {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  .image-three img {
+    min-height: 220px;
+    max-height: 220px;
+  }
+}
+
+
+// BANNER FOUR
+
+.banner-four {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $pink;
+  color: white;
+  margin-bottom: -1px;
+}
+
+.image-four {
+  margin-bottom: -1px;
+  img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+}
+
+.paragraph-four {
+  width: 100%;
+  text-align: justify;
+  h6 {
+    line-height: 2;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner-four {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .image-four img {
+    min-height: 220px;
+    max-height: 220px;
+  }
+}
+
+
+// BANNER FIVE
+
+.banner-five {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  .header-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  h1 {
+    font-family: $body-font;
+    font-size: 43px;
+    line-height: 2;
+    text-align: center;
+    color: $pink;
+  }
+  p {
+    font-size: 14px;
+  }
+  .btn {
+    background-color: $pink;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 989px) {
+  .banner-five .header-five {
+    width: 80%;
+  }
+}
+
+@media (min-width: 989px) {
+  .banner-five .header-five {
+    width: 50%;
+  }
+}
+
+
+// BANNER SIX
+
+.banner-six {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
   padding-bottom: 70px;
   justify-content: center;
   align-items: center;
@@ -25,13 +246,13 @@ a {
   background-color: $pink;
   /* background-color: rgba(197, 0, 88, 0.1); */
   color: white;
-  .header-one {
+  .header-six {
     display: flex;
     justify-content: center;
   }
   h1 {
     font-family: $body-font;
-    font-size: 43px;
+    font-size: 45px;
     line-height: 1.5;
     border-left: 4px solid white;
     padding-left: 60px;
@@ -40,7 +261,7 @@ a {
 }
 
 @media (max-width: 560px) {
-  .banner-one h1 {
+  .banner-six h1 {
     font-size: 16px;
     padding-left: 40px;
     margin-left: 40px;
@@ -48,11 +269,12 @@ a {
   }
 }
 
-// BANNER TWO
 
-.banner-two {
-  padding-top: 15px;
-  padding-bottom: 15px;
+// BANNER SEVEN
+
+.banner-seven {
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-right: 15px;
   padding-left: 15px;
   background-color: $pink;
@@ -63,9 +285,15 @@ a {
     margin-top: 15px;
     color: white;
   }
+  .btn {
+    background-color: white;
+    color: $pink;
+    font-weight: bold;
+    font-size: 14px;
+  }
 }
 
-.video {
+.banner-seven .video {
   height: auto;
   display: flex;
   justify-content: center;
@@ -76,7 +304,7 @@ a {
 }
 
 @media (max-width: 700px) {
-  .banner-two {
+  .banner-seven {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -99,57 +327,10 @@ a {
   }
 }
 
-// BANNER THREE
 
-.banner-three {
-  display: flex;
-  width: 100%;
-  height: auto;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: $pink;
-  color: white;
-  margin-top: -1px;
-  .header-three {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-  }
-  h1 {
-    font-family: $body-font;
-    font-size: 43px;
-    line-height: 1.5;
-    text-align: center;
-  }
-  p {
-    font-size: 14px;
-  }
-  .btn {
-    background-color: white;
-    color: $pink;
-    font-weight: bold;
-  }
-}
+// BANNER EIGHT
 
-@media (max-width: 989px) {
-  .banner-three .header-three {
-    width: 80%;
-  }
-}
-
-@media (min-width: 989px) {
-  .banner-three .header-three {
-    width: 50%;
-  }
-}
-
-// BANNER FOUR
-
-.banner-four {
+.banner-eight {
   height: auto;
   display: flex;
   justify-content: center;
@@ -178,11 +359,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/yRcdPGT.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/sbwiTu2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   &:hover {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://i.imgur.com/yRcdPGT.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://i.imgur.com/sbwiTu2.jpg");
   }
 }
 
@@ -196,7 +377,7 @@ a {
   align-items: center;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/4hBCZrd.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   &:hover {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://i.imgur.com/4hBCZrd.jpg");
   }
@@ -228,7 +409,7 @@ a {
   align-items: center;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/4jQT7T6.jpg");
   background-size: cover;
-  background-position: left;
+  background-position: left top;
   &:hover {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://i.imgur.com/4jQT7T6.jpg");
   }
@@ -240,20 +421,20 @@ a {
     flex-direction: column;
   }
   .card-one {
-    width: 200px;
+    width: 250px;
     height: 200px;
     background-position: center;
   }
   .card-two {
-    width: 200px;
+    width: 250px;
     height: 200px;
   }
   .card-three {
-    width: 200px;
+    width: 250px;
     height: 200px;
   }
   .card-four {
-    width: 200px;
+    width: 250px;
     height: 200px;
   }
 }
