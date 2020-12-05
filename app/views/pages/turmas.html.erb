@@ -95,10 +95,11 @@
   
   <h2>Turma 4 – 2020</h2>
 
-  <div class="slider owl-carousel owl-theme mt-5 mb-5">
+  <div class="slider owl-carousel owl-theme turma-2020-4 mt-5 mb-5">
     <div class="card">
-      <div class="img">
-        <img src="https://i.imgur.com/VBCvplG.jpg">
+      <div class="img img-one">
+        <%# <img src="https://i.imgur.com/VBCvplG.jpg"> %>
+        <%= image_tag("turmas-2020-4-1.jpg") %>
         <p class="title text-center pt-3">
           Emanuela Pinheiro, <b>Brasil</b>
         </p>
@@ -106,8 +107,9 @@
     </div>
 
     <div class="card">
-      <div class="img">
-        <img src="https://i.imgur.com/Yfn0vL7.jpg">
+      <div class="img img-two">
+        <%# <img src="https://i.imgur.com/Yfn0vL7.jpg"> %>
+        <%= image_tag("turmas-2020-4-2.jpg") %>
         <p class="title text-center pt-3">
           Emanuela Pinheiro, <b>Brasil</b>
         </p>
@@ -115,8 +117,9 @@
     </div>
 
     <div class="card">
-      <div class="img">
-        <img src="https://i.imgur.com/ulqEbzn.jpg">
+      <div class="img img-three">
+        <%# <img src="https://i.imgur.com/ulqEbzn.jpg"> %>
+        <%= image_tag("turmas-2020-4-3.jpg") %>
         <p class="title text-center pt-3">
           Emanuela Pinheiro, <b>Brasil</b>
         </p>
@@ -124,8 +127,9 @@
     </div>
 
     <div class="card">
-      <div class="img">
-        <img src="https://i.imgur.com/fedVlYw.jpg">
+      <div class="img img-four">
+        <%# <img src="https://i.imgur.com/fedVlYw.jpg"> %>
+        <%= image_tag("turmas-2020-4-4.jpg") %>
         <p class="title text-center pt-3">
           Emanuela Pinheiro, <b>Brasil</b>
         </p>
@@ -133,8 +137,9 @@
     </div>
 
     <div class="card">
-      <div class="img">
-        <img src="https://i.imgur.com/N2k00sD.jpg">
+      <div class="img img-five">
+        <%# <img src="https://i.imgur.com/N2k00sD.jpg"> %>
+        <%= image_tag("turmas-2020-4-5.jpg") %>
         <p class="title text-center pt-3">
           Emanuela Pinheiro, <b>Brasil</b>
         </p>
@@ -142,8 +147,9 @@
     </div>
 
     <div class="card">
-      <div class="img">
-        <img src="https://i.imgur.com/QI5VpvX.jpg">
+      <div class="img img-six">
+        <%# <img src="https://i.imgur.com/QI5VpvX.jpg"> %>
+        <%= image_tag("turmas-2020-4-6.jpg") %>
         <p class="title text-center pt-3">
           Emanuela Pinheiro, <b>Brasil</b>
         </p>
@@ -151,8 +157,9 @@
     </div>
 
     <div class="card">
-      <div class="img">
-        <img src="https://i.imgur.com/7VzgbT4.jpg">
+      <div class="img img-seven">
+        <%# <img src="https://i.imgur.com/7VzgbT4.jpg"> %>
+        <%= image_tag("turmas-2020-4-7.jpg") %>
         <p class="title text-center pt-3">
           Emanuela Pinheiro, <b>Brasil</b>
         </p>
@@ -160,8 +167,9 @@
     </div>
 
     <div class="card">
-      <div class="img">
-        <img src="https://i.imgur.com/h8iVyey.jpg">
+      <div class="img img-eight">
+        <%# <img src="https://i.imgur.com/h8iVyey.jpg"> %>
+        <%= image_tag("turmas-2020-4-8.jpg") %>
         <p class="title text-center pt-3">
           Emanuela Pinheiro, <b>Brasil</b>
         </p>
@@ -175,9 +183,7 @@
   <script>
     $(".slider").owlCarousel({
       loop: true,
-      autoplay: true,
-      autoplayTimeout: 4000, //2000ms = 2s;
-      autoplayHoverPause: true,
+      autoplay: false,
       center:true,
       dots:true,
       responsive:{
