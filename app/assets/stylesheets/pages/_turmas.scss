@@ -1,0 +1,43 @@
+.classes h2 {
+  margin-left: 11px;
+  margin-bottom: 10px;
+}
+
+.classes .year {
+  margin-left: 15px;
+  color: $pink;
+}
+
+.turma-1 {
+  max-width: 100%;
+  display: flex;
+}
+
+.turma-1 .card {
+  flex: 1;
+  margin: 0 10px;
+  background:white;
+  box-shadow: 0 0 0.5em gray;
+  border-radius: 1% 1%;
+  margin-bottom: 50px;
+
+}
+
+.turma-1 .card .img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.turma-1 .card .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 1% 1% 0% 0%;
+
+}
+
+.turma-1 .card .content {
+  /* padding: 10px 20px; */
+  font-size: 12px;
+}

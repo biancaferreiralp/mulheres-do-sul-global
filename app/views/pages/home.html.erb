@@ -3,13 +3,11 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <%= image_tag("msg-one.jpg", class: "d-block w-100") %>
+      <%= image_tag("carousel-one.jpg", class: "d-block w-100") %>
     </div>
-    <!-- <div class="carousel-item">
-      <%= image_tag("msg-two.jpg", class: "d-block w-100") %>
-    </div> -->
+
     <div class="carousel-item">
-      <%= image_tag("msg-three.jpg", class: "d-block w-100") %>
+      <%= image_tag("carousel-two.jpg", class: "d-block w-100") %>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -22,25 +20,151 @@
   </a>
 </div>
 
-
-<!-- BANNERS -->
+<!-- BANNER ONE -->
 
 <div class="banner-one">
   <div class="header-one">
+    <div class="col-12 col-md-6">
+      <h1><b>Queremos empoderar e transformar a vida de mulheres refugiadas</b></h1>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER TWO -->
+
+<div class="row no-gutters">
+  <div class="col-xs-12 col-md-6">
+    <div class="image-two">
+      <%= image_tag("banner-two.jpg")%>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-md-6">
+    <div class="banner-two">
+      <div class="paragraph-two row justify-content-center">
+        <div class="col-10 col-md-8">
+          <h6>
+            Somos um negócio social de empoderamento econômico de talentosas mulheres costureiras 
+            inseridas em contextos de refúgio e vulnerabilidade social, baseado na promoção do empreendedorismo, 
+            capacitação de habilidades, criação e venda de peças têxteis comprometidas com os novos paradigmas 
+            de se fazer e consumir sustentável.
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER THREE -->
+
+<div class="row no-gutters">
+  <div class="col-xs-12 col-md-6">
+    <div class="banner-three">
+      <div class="paragraph-three row justify-content-center">
+        <div class="col-10 col-md-8">
+          <h6>
+            Promovemos o treinamento em costura de atelier, disponibilizamos maquinário para trabalhar de casa, 
+            buscamos promover o empreendedorismo com a formalização de costureiras micro-empreendedoras, 
+            e as conectamos com o mercado.
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-md-6">
+    <div class="image-three">
+      <%= image_tag("banner-three.jpg")%>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER FOUR -->
+
+<div class="row no-gutters">
+  <div class="col-xs-12 col-md-6">
+    <div class="image-four">
+      <%= image_tag("banner-four.jpeg")%>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-6">
+    <div class="banner-four">
+      <div class="paragraph-four row justify-content-center">
+        <div class="col-10 col-md-8">
+          <h6>
+            Nossos valores são regidos pela <b>tolerância</b>, <b>empatia</b>, <b>responsabilidade social</b>, 
+            <b>compromisso coletivo</b>, <b>independência</b>, <b>ética</b> e <b>transparência</b>.
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER FIVE -->
+
+<div class="banner-five">
+  <div class="header-five">
+    <div>
+      <div>
+        <h1 class="mb-4"><b>MSG LAB</b></h1>
+      </div>
+      <div>
+        <p>
+          MSG LAB é um laboratório de aprendizagem e profissionalização dedicado à mulheres
+          iniciantes ou com habilidades de costura.
+          <br>
+          <br>
+          Nosso programa é projetado para que as mulheres dominem as habilidades essenciais para trabalhar 
+          como uma costureira industrial.
+          <br>
+          <br>
+          Com aulas práticas, de forma a contribuir para a integração econômica sustentável,
+          as alunas aprendem fazendo e desenvolvem as habilidades iniciais necessárias para se tornarem
+          microempreendedores ou profissionais da área têxtil.
+        </p>
+      </div>
+      <div class="text-center mt-5">
+        <%= link_to "/msg-lab" do %>
+          <p class="btn m-2">CONHEÇA O PROGRAMA</p>
+        <% end %>
+
+        <%= link_to "/turmas" do %>
+          <p class="btn m-2">CONHEÇA AS TURMAS</p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER SIX -->
+
+<div class="banner-six">
+  <div class="header-six">
     <div class="col-12 col-md-6">
       <h1><b>Cada vale-presente vale o presente e o futuro das Mulheres do Sul Global</b></h1>
     </div>
   </div>
 </div>
 
-<div class="banner-two">
+<!-- BANNER SEVEN -->
+
+<div class="banner-seven">
   <div class="video">
     <iframe src="https://drive.google.com/file/d/1vZyoo80XLioF19wx5KZS4-TfdKCbjWv2/preview" allowfullscreen></iframe>
   </div>
   <p>Assista ao vídeo da nossa fundadora, Manu, contando mais sobre o projeto e a ação de Natal.</p>
+
+  <div class="text-center mt-5 mb-3">
+    <%= link_to "/" do %>
+      <p class="btn m-2">ACESSE A LOJA</p>
+    <% end %>
+  </div>
 </div>
 
-<div class="banner-three">
+<!-- BANNER EIGHT -->
+
+<div class="banner-eight">
   <div class="cards">
     <%= link_to "/sobre" do %>
       <div class="card-one m-3"><h5>NOSSA HISTÓRIA</h5></div>
@@ -59,28 +183,3 @@
     <% end %>
   </div>
 </div>
-
-<!-- <div class="banner-three">
-  <div class="row cards m-0">
-    <div class="col-xs-12 col-md-2 p-2">
-      <%= link_to "/sobre" do %>
-        <div class="card-one"><h5>NOSSA HISTÓRIA</h5></div>
-      <% end %>
-    </div>
-    <div class="col-xs-12 col-md-2 p-2">
-      <%= link_to root_path do %>
-        <div class="card-two"><h5>NOSSA LOJA</h5></div>
-      <% end %>
-    </div>
-    <div class="col-xs-12 col-md-2 p-2">
-      <%= link_to "/msg-lab" do %>
-        <div class="card-three"><h5>MSG LAB</h5></div>
-      <% end %>
-    </div>
-    <div class="col-xs-12 col-md-2 p-2">
-      <%= link_to "/contato" do %>
-        <div class="card-four"><h5>CONTRIBUA</h5></div>
-      <% end %>
-    </div>
-  </div>
-</div> -->
