@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MulheresDoSulGlobal</title>
+    <title>Mulheres do Sul Global</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,22 +10,22 @@
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
 
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <script src= "http://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src= "https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <meta property="og:title" content="Mulheres do Sul Global">
+    <meta property="og:type" content="negócio social">
+    <meta property="og:url" content="http://www.mulheresdosulglobal.com/">
+    <meta property="og:image" content="https://i.imgur.com/s9yxAy1.jpg">
+    <meta property="og:description" content="Empoderamos e transformamos a vida de mulheres refugiadas no Brasil">
   </head>
 
   <body>
     <%= render 'shared/navbar' %>
     <%= yield %>
     <%= render 'shared/footer' %>
+    <%= render 'shared/form' %>
   </body>
-
-  <footer>
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-  </footer>
 </html>
