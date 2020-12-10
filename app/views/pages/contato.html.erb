@@ -22,14 +22,15 @@
     </div>
   </div>
 
-  <div class="container map-container col-md-12" style='margin-top: 180px; margin-bottom: 120px; text-align: center; margin-left: 5vh;'>
+  <div class=" parent-col col-md-12" style='margin-top: 180px; margin-bottom: 120px; text-align: center;'>
     <div class="row">
-      <div class="col col-xs-12 col-md-6">
-        <%= image_tag("map.png", class: "map-contato") %>
+      <div class="col col-md-6 map-contato">
+        <%= image_tag("map.png", #class: "map-contato"
+        ) %>
       </div>
-      <div class="col col-xs-12 col-md-6 d-flex">
+      <div class="col-form col-md-6 d-flex form-contato">
         <form action="https://formspree.io/f/mdopejwy" method="POST" style="font-family: 'Oswald'">
-          <h4 style='text-align: center;'>Fale com a gente!</h4>
+          <h4 style="text-align: center; font-family: 'Oswald';">Fale com a gente!</h4>
           <label  style="margin-top: 20px; margin-right: 4vh;"> Seu email: <br>
             <input type="text" name="_replyto" style="width: 30vh">
           </label>

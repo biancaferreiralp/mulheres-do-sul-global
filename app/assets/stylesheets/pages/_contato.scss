@@ -4,14 +4,26 @@
   padding-bottom: 10px;
  }
 
+.parent-col {
+
+}
+
  p {
   padding-bottom: -5px;
  }
 }
 
 .map-contato {
-  margin-left: 20px;
-  max-width: 100vh;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+}
+
+.col-form {
+  width: 100%;
 }
 
 .map-container {
