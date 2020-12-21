@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mulheres do Sul Global</title>
+    <title><%= meta_title %></title>
+    <meta name="description" content="<%= meta_description %>">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="<%= meta_title %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= meta_image %>" />
+    <meta property="og:description" content="<%= meta_description %>" />
+    <meta property="og:site_name" content="<%= meta_title %>" />
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -14,12 +24,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
-    <meta property="og:title" content="Mulheres do Sul Global">
-    <meta property="og:type" content="negócio social">
-    <meta property="og:url" content="http://www.mulheresdosulglobal.com/">
-    <meta property="og:image" content="https://i.imgur.com/s9yxAy1.jpg">
-    <meta property="og:description" content="Empoderamos e transformamos a vida de mulheres refugiadas no Brasil">
   </head>
 
   <body>
