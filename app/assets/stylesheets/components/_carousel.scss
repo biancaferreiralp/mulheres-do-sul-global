@@ -1,40 +1,59 @@
-@media (max-width: 520px) {
+@media (min-width: 1024px) {
   .carousel .carousel-item img {
-    min-height: 220px;
-    max-height: 220px;
-    object-fit: cover;
-    object-position: center 31%;
-  }
-  .owl-carousel .nav-button {
-    width: 25px;
-    cursor: pointer;
-    position: absolute;
-  }
-  .owl-carousel .owl-prev {
-    left: 0px;
-  }
-  .owl-carousel .owl-next {
-    right: 0px;
+    .carousel .carousel-item img {
+      min-height: 500px;
+      max-height: 580px;
+    }
   }
 }
 
 @media (min-width: 520px) {
   .carousel .carousel-item img {
-    min-height: 580px;
-    max-height: 580px;
+    min-height: 375px;
     object-fit: cover;
-    object-position: center 52%;
+    object-position: center;
   }
+
   .owl-carousel .nav-button {
     width: 25px;
     cursor: pointer;
     position: absolute;
     top: 180px !important;
   }
+
   .owl-carousel .owl-prev {
     left: -35px;
   }
+
   .owl-carousel .owl-next {
     right: -35px;
+  }
+}
+
+@media (max-width: 520px) {
+  .carousel .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    object-position: right;
+  }
+
+  .owl-carousel .owl-prev {
+    left: 0px;
+  }
+
+  .owl-carousel .owl-next {
+    right: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel .carousel-item img {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .carousel .carousel-item img {
+    height: 76vh;
   }
 }
