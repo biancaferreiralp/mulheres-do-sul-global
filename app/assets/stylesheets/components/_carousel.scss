@@ -10,6 +10,7 @@
 @media (min-width: 520px) {
   .carousel .carousel-item img {
     min-height: 375px;
+    max-height: 87vh;
     object-fit: cover;
     object-position: center;
   }
